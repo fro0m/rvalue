@@ -7,5 +7,6 @@ SOURCES += main.cpp \
     item.cpp
 
 HEADERS += \
-    item.h
+    item.h \
+    logic.h
 
