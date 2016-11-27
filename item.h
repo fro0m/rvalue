@@ -9,6 +9,15 @@ public:
     Item() = delete;
     Item(const Item &t_item);
     Item(Item &&t_item);
+    Item& operator=(Item&& other);
+
+
+    int number() const;
+    void setNumber(int number);
+    int &numberRef() {
+        return m_number;
+    }
+
 private:
     int m_number;
 };
